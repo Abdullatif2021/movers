@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  mofleet-front:
+    image: registry.dev.itland-sy.com/mofleet/front:dev
+    ports:
+      - 3015:80
+    network_mode: bridge
